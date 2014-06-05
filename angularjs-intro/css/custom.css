@@ -1,0 +1,44 @@
+.reveal .slides section .fragment.job-title {
+    margin: 0;
+    position: absolute;
+    top: 1em;
+    padding: 0.3em;
+    font-family: impact;
+    font-weight: bold;
+    font-size: 2.8em;
+    line-height: 1.2em;
+    letter-spacing: 3px;
+    color: #CF022B;
+    text-shadow: 5px 4px 1px rgba(0, 0, 0, 0.8);
+    border: 10px solid #E5676D;
+    border-radius: 0.3em;
+    box-shadow: inset 0px 0px 177px #E5676D;
+
+    opacity: 0;
+
+    -webkit-transform: scale( 0.1 );
+       -moz-transform: scale( 0.1 );
+        -ms-transform: scale( 0.1 );
+         -o-transform: scale( 0.1 );
+            transform: scale( 0.1 );
+}
+
+.reveal .slides section .fragment.job-title.visible {
+    opacity: 1;
+
+    -webkit-transform: scale( 1 ) rotate(-14deg);
+       -moz-transform: scale( 1 ) rotate(-14deg);
+        -ms-transform: scale( 1 ) rotate(-14deg);
+         -o-transform: scale( 1 ) rotate(-14deg);
+            transform: scale( 1 ) rotate(-14deg);
+}
+
+.reveal .slides section .fragment.me.visible {
+    display: none;
+}
+
+.reveal .slides section .hi-sopra {
+    position: absolute;
+    top: 5em;
+    right: 18%;
+}

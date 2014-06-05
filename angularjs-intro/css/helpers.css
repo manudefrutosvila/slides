@@ -1,0 +1,11 @@
+.borderNone{
+	border: none !important;
+}
+
+.shadowNone{
+	box-shadow: none !important;
+}
+
+.textAlignLeft{
+	text-align: left;
+}
