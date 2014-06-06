@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515 url("../images/bkg.png") 0 0;
+  background: #151515 url("../img/bkg.png") 0 0;
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
@@ -66,6 +66,28 @@ header h2 {
   font-size: 18px;
   font-weight: 300;
   color: #666;
+}
+
+footer {
+  width: 100%;
+  border-top: 1px dashed #b5e853;
+  padding-top: 20px;
+  margin: 40px 0 0 0;
+  text-align: center;
+}
+
+#info .photo {
+  float:left;
+  margin-right: 10px;
+}
+
+#info .description{
+  float:left;
+  margin-top: 35px;
+}
+
+#info .description h2:last-child{
+  margin-bottom: 0;
 }
 
 #downloads .btn {
@@ -183,6 +205,7 @@ hr {
   border: 0;
   border-bottom: 1px dashed #b5e853;
   color: #b5e853;
+  margin-top: 50px;
 }
 
 /* Buttons
@@ -219,7 +242,7 @@ hr {
 
 .btn-github .icon {
   opacity: 0.6;
-  background: url("../images/blacktocat.png") 0 0 no-repeat;
+  background: url("../img/blacktocat.png") 0 0 no-repeat;
 }
 
 /* Links
@@ -228,7 +251,11 @@ hr {
 
 a {
   color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.4);
+}
+
+a:hover {
+  text-shadow: 0 0 5px rgba(104, 182, 255, 1);
 }
 
 /* Clearfix */

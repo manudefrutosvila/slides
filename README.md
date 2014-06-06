@@ -3,4 +3,5 @@ Slides
 
 A collection of my slides
 
-* AngularJS intro
+- Sublime Text
+- [AngularJS Intro](http://mdefrutosvila.github.io/slides/angularjs-intro)
