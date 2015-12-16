@@ -1,1 +1,7 @@
-{"name":"Slides","tagline":"A collection of my slides","body":"### Welcome to my slides index page.\r\nHere you can find the links of my different slides presentations\r\n\r\n* [AngularJS introduction](http://mdefrutosvila.github.io/slides/angularjs-intro)","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
+{
+  "name": "Slides",
+  "tagline": "A collection of my slides",
+  "body": "### Welcome to my slides index page.\r\nHere you can find the links of my different slides presentations\r\n\r\n* [AngularJS introduction](http://manudefrutosvila.github.io/slides/angularjs-intro)",
+  "google": "",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
